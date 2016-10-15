@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.5
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: JsSCOcLlfUladNdQ4PP8N6hXk5v/OMfCzcJEvcj2KBiMpa/e01UojTDRZ3fk3WGMoGPOTUG531FASxH2drzaLu40/PZ9KJIxVNdlCsG/FYYYTRSouMP82lM0qBzmo7vBJdSsxFvH84DvKy2hdQ4bqVSMgdWlw0dUib6Vo8tVktlrbG7tkmjuQ7rrzj1PnnMPrNSD8K1lO/FlHmyyUhYCdRdsxHVu7JBy74IlU/IxqCinN0W1QzMqRu9N85kSUlyYvsBJDi5t0VZoFTYEL3nWoHoyD3LgsqYbCpHxYKtysMDDR+lhM2iTNFx2s3mLR4bJIiqs+1OcCstTLk72Fnz0FcUu/yZ3FdlpOppTt0SPl/zNN1kBG5siTkG5t7zdW9bOwLdeBoBpUmUM0wyj5L4WFO8flfKQR1xcyKWtbTYjN2WFSgMxYPNMIgLilcfZ6ChZHfgNC7Eg8lcvdlbyWAOD8to+Bw1wP2l8SyJZS8X/cDseNCmHFPl79fbv9DFDVHwJ2BpBt9yBItOO11L9vfrvYwzJqr17hw7tbBVfmZKE+xTZw2s9JFzgb98kxjlTPnZH2IZuTV20koPFjYdBv8+SpEwmRVkTDBxKATE1lBjQ2WwN8taSjHRU9jwfRZDJvrfBha28XqB2Z1ggvruRZRFmTMhHfRXdJa7kTPSEVvSBepM=
+  app: secret-castle-33697
+  on:
+    repo: IshidaHIRO/my_practice
